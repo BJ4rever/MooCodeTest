@@ -41,3 +41,7 @@
 
 * SwitchTo PopUp Command
      Alert alert = driver.switchTo().alert();
+     alert.accept();
+     alert.dismiss();
+     alert.close();
+
