@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4143805247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navigate to business card page",
+        "description": "",
+        "id": "user-should-able-to-navigate-to-business-card-page;navigate-to-business-card-page",
+        "after": [
+          {
+            "result": {
+              "duration": 866924237,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3896397972,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Moo home page",
+            "match": {
+              "location": "MyStepdefs.userIsOnMooHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3449298836,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Business Cards",
+            "match": {
+              "location": "MyStepdefs.userClicksOnBusinessCards()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29964804,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should able to successfully navigate to Business Cards page",
+            "match": {
+              "location": "MyStepdefs.userShouldAbleToSuccessfullyNavigateToBusinessCardsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@businesscard"
+          }
+        ]
+      }
+    ],
+    "name": "User should able to navigate to Business Card page",
+    "description": "",
+    "id": "user-should-able-to-navigate-to-business-card-page",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/MooCodeTest/businesscard.feature"
+  }
+]

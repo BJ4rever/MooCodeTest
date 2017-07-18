@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <test name="MooCodeTest" >
+        <classes>
+            <class name="MooCodeTest.RunTest">
+                <methods>
+                    <!--<include name="@search" />-->
+                    <include name="@businesscard" />
+                    <!--<include name="@referfriend" />-->
+                    <!--<include name="verifyPriceSplitWorkingFine" />-->
+                    <!--<include name="verifyAddExtraForShipsAndRiverBoatInCairo" />-->
+                    <!--<include name="verifyRemoveExtraAndAddExtraForShipsAndRiverBoatInCairo" />-->
+                    <!--<include name="verifySpecialOfferColorGreenWhenWithinRange" />-->
+                    <!--<include name="verifyPricingTextDisplayInProposalEditorAK" />-->
+                    <!--<include name="verifyPricingTextDisplayInProposalEditorAkorn" />-->
+                    <!--<include name="verifyPricingTextDisplayInProposalEditorSubCompanyAK" />-->
+                    <!--<include name="verifyPricingTextDisplayInProposalEditorSubCompanyAkorn" />-->
+                    <!--<include name="abcd" />-->
+                    <!--<include name="abcd" />-->
+                    <!--<include name="abcd" />-->
+                    <!--<include name="abcd" />-->
+                    <!--<include name="abcd" />-->
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--<test name="Regression1">-->
+    <!--<classes>-->
+    <!--<class name="Data.TestSuite."/>-->
+    <!--<class name="test.sample.ParameterTest"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+</suite>

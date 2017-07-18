@@ -1,0 +1,43 @@
+1.if you have common locators where will you save them instead them putting them on each page
+2.how you will run this test through jenkins
+3.
+
+
+* Page Scroll Method
+    ((JavascriptExecutor)driver).executeScript("scroll(0,250);");
+
+* Scroll Element into View with Selenium
+    WebElement element = driver.findElement(By.id("id_of_element"));
+    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    Thread.sleep(500);
+
+* Mouse Hover Action
+    Action action = new Action(driver);
+    action.moveToElement(driver.findElement(By.xpath(""))).build().perform();
+
+* Select ComboBox List
+    Select select = new Select(driver.findElement(By.xpath("//div[@id='views/div/select']"));
+    select.selectByVisibleText("NIC");
+    or
+    select.selectByIndex(0);
+    or
+    select.selectByValue("value");
+
+* To get the window handle of the current window
+    String  handle = driver.getWindowHandle();   //Return a string of alphanumeric window handle
+
+* To get the window handle of all the current windows
+     Set<String> handle = driver.getWindowHandles();   //Return a set of window handle
+
+* SwitchTo Window Command
+    driver.switchTo().window("windowName");
+    or
+     for (String handle : driver.getWindowHandles()) {
+
+        driver.switchTo().window(handle);}
+
+* SwitchTo Frame Command
+     driver.switchTo().frame("frameName");
+
+* SwitchTo PopUp Command
+     Alert alert = driver.switchTo().alert();
